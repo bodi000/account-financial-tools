@@ -5,7 +5,7 @@
 
 {
     'name': 'Assets Management - Cancel button',
-    'version': '10.0.1.0.0',
+    'version': '11.0.1.0.0',
     'author': "Tecnativa, "
               "Odoo Community Association (OCA)",
     'website': 'http://www.serviciosbaeza.com',

@@ -8,7 +8,7 @@
             <field name="depreciation_line_ids" position="attributes">
                 <attribute name="options">{'reload_on_button': true}</attribute>
             </field>
-            <button name="create_move" position="after">
+            <field name="parent_state" position="after">
                 <field name="move_id" invisible="1"/>
                 <button name="unlink_move"
                         icon="fa-times-circle text-danger"
@@ -19,7 +19,7 @@
                         groups="account.group_account_manager"
                         attrs="{'invisible': [('move_check', '=', False)]}"
                 />
-            </button>
+            </field>
         </field>
     </record>
 
